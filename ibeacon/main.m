@@ -40,6 +40,10 @@ void print_usage() {
 }
 
 int main(int argc, char * argv[]) {
+    
+    // disable buffering for stdout
+    setbuf(stdout, NULL);
+    
     int exit_value = EXIT_SUCCESS;
 
     @autoreleasepool {
