@@ -8,7 +8,7 @@ Swiss Army Command Line Utility for working with iBeacons.
 ibeacon: iBeacon command line utility
 
       -h  --help             Display this message
-      -v  --version          Display 'Version 1.0.0'
+      -v  --version          Display 'Version 1.0.1'
       -s  --scan             Scan for iBeacons
       -b  --broadcast        Broadcast as an iBeacon
 
