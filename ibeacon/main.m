@@ -124,6 +124,11 @@ int main(int argc, char * argv[]) {
             [broadcaster startAdvertisingWithUUID:uuid major:major minor:minor power:power];
             [[NSRunLoop currentRunLoop] run];
         }
+        // If there are no arguments print the usage
+        if (argc == 1) {
+            print_usage();
+            exit(EXIT_FAILURE);
+        }
     }
     return exit_value;
 }
